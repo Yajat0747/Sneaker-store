@@ -1,0 +1,116 @@
+  
+      body {
+        font-family: 'Edu TAS Beginner', cursive;
+        font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d5e0ff;
+        }
+
+        header {
+            background-color: #5125d2;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #673ee5;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 0.5em;
+        }
+
+        section {
+            padding: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 1em;
+            margin: 1em;
+            text-align: center;
+            background-color: #fff;
+            width: 30%; /* Adjust the width to fit three products in one line */
+            box-sizing: border-box; /* Include padding and border in the total width */
+            border-radius: 24px;
+            opacity: 0.9;
+        }
+
+        footer {
+            background-color: #673ee5;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    
+        img{
+            width: 230px;
+            cursor: pointer;
+            transition-duration: 1.15s;
+        }
+
+        
+
+        .button{
+            background-color: #dddad6;
+            border: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Edu TAS Beginner', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            transition-duration: 0.15s;
+        }
+
+        .button:hover{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
+
+        .button:active{
+            opacity: 0.7;
+        }
+
+        h1{
+            font-family: 'Edu TAS Beginner', cursive;
+            font-family: 'Luckiest Guy', cursive;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Permanent Marker', cursive;
+            font-family: 'Poppins', sans-serif;
+        }
+        .homie{
+            border-radius: 10px;
+            margin: 250px;
+            margin-left: 400px;
+        }
+        
+        .main{
+            background-color: #673ee5;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
